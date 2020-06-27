@@ -2,5 +2,5 @@
 echo "---"
 echo "addons:"
 echo "config_vars:"
-echo "  PATH:$PATH:/app/bin"
+echo "  PATH: $PATH:/app/bin"
 echo "default_process_types:"
