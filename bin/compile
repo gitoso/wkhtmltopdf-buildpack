@@ -59,4 +59,5 @@ fc-cache -f $1/.fonts
 # Setting environment variables in .profile.d script (sourced at dyno startup)
 build=$(cd "$1/" && pwd)
 mkdir -p $build/.profile.d
-echo 'export TOSO=itworks && echo "fixing PATH"' > $build/.profile.d/fix-path.sh
+echo 'export TOSO=itworks' > $build/.profile.d/fix-path.sh
+echo 'export PATH="$PATH:/app/bin"' >> $build/.profile.d/fix-path.sh
