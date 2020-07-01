@@ -3,7 +3,7 @@
 
 echo 'export PATH="/app/bin:$PATH"' > export
 
-export PATH="/app/bin:\$PATH"
+export PATH="/app/bin:$PATH"
 export TOSO="workaround"
 
 set -e
